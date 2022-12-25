@@ -9,7 +9,7 @@ class Config(object):
     # Update channel for Force Subscribe
     UPDATE_CHANNEL = os.environ.get("https://t.me/+4zuY__2ON344ODFh", "")
     # log channel
-    #LOG_CHANNEL = os.environ.get("https://t.me/Z544zTebnOtjZjM1", "")
+    #LOG_CHANNEL = os.environ.get("https://t.me/exRrBBp7BpNjBp", "")
     # Get these values from my.telegram.org
     CHAT_ID = os.environ.get("CHAT_ID", "1182470223")
     # Array to store users who are authorized to use the bot
