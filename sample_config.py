@@ -7,13 +7,13 @@ class Config(object):
     APP_ID = int(os.environ.get("18601774", 12345))
     API_HASH = os.environ.get("218ada48a21b6a605f3123022d85974a")
     # Update channel for Force Subscribe
-    UPDATE_CHANNEL = os.environ.get("https://t.me/+qwVkELqfxB9jOWMx", "")
+    UPDATE_CHANNEL = os.environ.get("https://t.me/+4zuY__2ON344ODFh", "")
     # log channel
     #LOG_CHANNEL = os.environ.get("https://t.me/Z544zTebnOtjZjM1", "")
     # Get these values from my.telegram.org
     CHAT_ID = os.environ.get("CHAT_ID", "1182470223")
     # Array to store users who are authorized to use the bot
-    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "").split())
+    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "1182470223,938051964,1338644275,2120364667,5642867067").split())
     # Banned Unwanted Members..
     BANNED_USERS = []
     # the download location, where the HTTP Server runs
